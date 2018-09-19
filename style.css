@@ -1,0 +1,27 @@
+html {
+    background: url("bean.png") no-repeat right bottom fixed, #441500 url("wpaper1.jpg") no-repeat center fixed; 
+    background-size: contain, cover;
+	color: #451800; /* https://www.bhg.com/decorating/color/neutrals/colors-that-go-with-brown/ */
+	font-size: 1.5em;
+	font-family: 'Merienda One', cursive;	
+	height: 100%;
+}
+
+
+ul {
+    list-style-image: url('favicon2.ico');
+}
+
+#good1, #good2, #good3, #sub_content {
+	display: none;
+}
+
+.content {
+	width: 70%;
+	margin: auto;
+	background-color: rgba(194,167,138,0.7);
+	border-radius: 100px;
+	padding: 2% 5%;
+	margin-top: 10%;
+	box-shadow: 0px 0px 10px 10px rgb(194,167,138,0.7);
+}

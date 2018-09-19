@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>COFFEE BOT</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet">
+	<script type="text/javascript" src="code.Js"></script>
+</head>
+<body>
+	<div class="content">
+	<h2><span id="good1">Buenos días</span><span id="good2">Buenas tardes</span><span id="good3">Buenas noches</span> ¿Qué deseas preparar hoy?</h2>
+	
+		<select id="cups">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+		</select>
+		<select id="metodo">
+			<option>Prensa francesa</option>
+			<option>Kalita</option>	
+		</select>
+		<button id="info" onclick="myFunction()">¡Calcular!</button><br><br>
+	
+		<div id="sub_content">
+			<p>Para un café balanceado, te recomiendo <span id="coffee_grams"></span> gramos de café y <span id="water_mililiters"></span> mililitros de agua. <br>
+			<br>
+			Recuerda:</p>
+		
+			<div id="m_kalita">
+				<ul>
+					<li>Un tamaño de molienda preferiblemente gruesa.</li>
+					<li>Un blooming de 40 segundos con <span id="water_bloom_kalita"></span> mililitros de agua.</li>
+					<li>Una extracción total de 2:30 minutos.</li>
+				</ul>
+				<p>Que disfrutes tu café :)</p>
+			</div>
+
+			<div id="m_prensa">
+				<ul>
+					<li>Un tamaño de molienda preferiblemente gruesa.</li>
+					<li>Un blooming de 30 segundos con <span id="water_bloom_prensa"></span> mililitros de agua.</li>
+					<li>Una extracción total de 4:30 minutos.</li>
+				</ul>
+				<p>Que disfrutes tu café :)</p>
+			</div>
+		</div>
+		
+</div>
+</body>
+<script>
+    greeting();
+</script>    
+</html>
