@@ -1,6 +1,4 @@
-/*if (3>0) {
-	alert("js working");
-}*/
+
 
 
 function greeting() {
